@@ -1,3 +1,16 @@
+/* Borrowed from bootstrap */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  clip-path: inset(50%);
+  border: 0;
+}
+
 /*
 Taken from the vanilla-tilt.js demo site:
 https://micku7zu.github.io/vanilla-tilt.js/index.html
