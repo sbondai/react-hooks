@@ -2,7 +2,7 @@
 // http://localhost:3000/isolated/exercise/02.js
 
 import * as React from 'react'
-
+// making use of custom hooks
 function useLocalStorageState(
   key,
   defaultValue = '',
